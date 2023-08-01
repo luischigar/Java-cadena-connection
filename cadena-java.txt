@@ -1,0 +1,32 @@
+server.port=9992
+
+#JAVA POSTGRESQL
+#spring.datasource.url=jdbc:postgresql://pgdb-staffing-dev.postgres.database.azure.com:5432/db-staffing-system
+#spring.datasource.username=staffing_user@pgdb-staffing-dev
+#spring.datasource.password=Pichincha2022.
+#spring.datasource.driverClassName=org.postgresql.Driver
+#spring.jpa.properties.hibernate.show_sql=true
+#spring.jpa.properties.hibernate.use_sql_comments=true
+#spring.jpa.properties.hibernate.format_sql=true
+#spring.jpa.hibernate.ddl-auto=none
+#spring.jpa.open-in-view=false
+#server.servlet.contextPath = /stf-msa-staffing
+#staffing.url.service=https://tribu-ti-staffing-desarrollo-afangwbmcrhucqfh.z01.azurefd.net
+#staffing.url.service.evaluation=https://tribu-ti-staffing-desarrollo-afangwbmcrhucqfh.z01.azurefd.net
+#atlassian.url.api=https://pichincha.atlassian.net
+#atlassian.authorization.api=Basic ZWRqYWNvbWVAcGljaGluY2hhLmNvbTpOUVFhWlhTdzNSM2hYVjh3bHpYa0VFRUY=
+#staffing.url.service.notification=https://tribu-ti-staffing-desarrollo-afangwbmcrhucqfh.z01.azurefd.net
+
+#JAVA SQL SERVER
+spring.datasource.url=jdbc:sqlserver://localhost;databaseName=CONTACT_CENTER;encrypt=false
+spring.datasource.username=sa
+spring.datasource.password=luis456chi
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.jpa.show-sql=true
+spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.open-in-view=false
+server.servlet.contextPath = /contact-center
